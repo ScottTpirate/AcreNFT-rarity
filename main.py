@@ -21,7 +21,7 @@ def showAttributes(number):
         col2.subheader(f"Edition: `{edition}`")
         # st.sidebar.write(data['edition'])
         col2.subheader(f"Rarity Score: `{rarity}`")
-        col2.subheader(f"Rarity Rank: `{rank}`")
+        col2.subheader(f"Rarity Rank: `{rank}`/4840")
         
         for a in data['attributes']:
             trait_type = a['trait_type']
