@@ -30,7 +30,8 @@ def showAttributes(number):
             elements.markdown(f"**{trait_type}** : `{value}` ")
             o = float(a['occurence'][:-1])
             elements.write(f"Trait Rarity: `{occurence}`")
-            elements.progress(int(o))
+            # elements.progress(int(o))
+            elements.markdown("""---""")
 
         element3.write(data)
 
