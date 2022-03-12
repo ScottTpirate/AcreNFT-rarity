@@ -3,9 +3,12 @@ import urllib.request
 import json
 from PIL import Image
 import qrcode 
-
+import gc
 
 # https://ipfs.io/ipfs/
+
+#Enable garbage collection
+gc.enable()
 
 
 def showAttributes(number):
@@ -82,5 +85,6 @@ if numba:
         
             
             
-
+#Clean up the memory from unused objects
+gc.collect()
 
