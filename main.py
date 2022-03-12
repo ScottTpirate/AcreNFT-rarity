@@ -85,6 +85,4 @@ if numba:
         
             
             
-#Clean up the memory from unused objects
-gc.collect()
 
